@@ -1,0 +1,145 @@
+:root {
+  --bg: #1c1c1c;      /* fondo oscuro */
+  --fg: #fdf6e3;      /* texto crema */
+  --accent: #b22222;  /* rojo vino */
+  --border: #444;     /* gris oscuro */
+  --card: #2a2a2a;    /* gris medio */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  color: #9aa5b1;
+}
+
+/* Barra progreso */
+#progress-container {
+  width: 100%;
+  background: var(--card);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+#progress-bar {
+  height: 22px;
+  background: var(--accent);
+  text-align: center;
+  line-height: 22px;
+  color: #fff;
+  width: 0%;
+  font-size: 13px;
+  transition: width 0.2s;
+}
+
+/* Tabla */
+.table-wrapper {
+  overflow-x: auto;
+  background: var(--card);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+thead {
+  background: #145214; /* reforzado para contraste */
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+tr:hover {
+  background: #1c4d1c;
+}
+
+.team {
+  font-weight: bold;
+  font-size: 15px;   /* equipo ligeramente más grande */
+  color: #a2ff5f;
+}
+.user {
+  font-size: 13px;   /* jugador más pequeño */
+  color: #7fffd4;
+}
+
+/* Juegos de hoy */
+#games-today {
+  margin-top: 22px;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+#games-today h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #b8ffcc;
+}
+
+#games-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#games-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #145214;
+  font-size: 14px;
+}
+
+#games-list li:last-child {
+  border-bottom: none;
+}
+
+.game-item {
+  color: #eafbe7;
+  font-family: monospace;
+}
+
+/* Utilidad */
+.hidden { display: none; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  th, td {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .team {
+    font-size: 14px;
+  }
+  .user {
+    font-size: 11px;
+  }
+}

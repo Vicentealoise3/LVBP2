@@ -1,0 +1,16 @@
+
+
+    ("freddy_vnzl", "Red Sox"),
+    ("kmaraa-", "Yankees"),
+    ("Juanbrachog", "Blue Jays"),
+    ("richard262308", "Tigers"),
+    ("WILZULIA", "Royals"),
+    ("Thiago_70_", "Astros"),
+    ("LAPAJA 9249", "Mets"),
+    ("jnajerlue13", "Phillies"),   
+    ("Seba_machado21", "Cubs"),
+    ("Elrorro2", "Cardinals"),
+    ("jvh_0408", "Diamondbacks"),
+    ("Josealvarado24_", "Dodgers"),
+    ("Wcenteno83", "Padres"),
+    ("juanchojs28", "Giants"),
