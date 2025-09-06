@@ -10,7 +10,7 @@ from datetime import datetime
 
 # ===== MODO DE EJECUCIÓN (switch) =====
 # Valores posibles: "DEBUG" o "ONLINE"
-MODE = "DEBUG"  # ← déjalo en DEBUG para que se comporte igual que ahora
+MODE = "ONLINE"  # ← déjalo en DEBUG para que se comporte igual que ahora
 
 CFG = {
     "DEBUG": dict(
@@ -69,7 +69,7 @@ API = "https://mlb25.theshow.com/apis/game_history.json"
 PLATFORM = "psn"
 MODE = "LEAGUE"
 SINCE = datetime(2025, 8, 31)
-PAGES = (1, 2, 3)          # <-- SOLO p1 y p2, como validaste
+PAGES = (1, 2, 3, 4, 5, 6, 7)          # <-- SOLO p1 y p2, como validaste
 TIMEOUT = 20
 RETRIES = 2
 
