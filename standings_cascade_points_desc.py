@@ -10,7 +10,7 @@ from datetime import datetime
 
 # ===== MODO DE EJECUCIÓN (switch) =====
 # Valores posibles: "DEBUG" o "ONLINE"
-MODE = "ONLINE"  # ← déjalo en DEBUG para que se comporte igual que ahora
+MODE = "DEBUG"  # ← déjalo en DEBUG para que se comporte igual que ahora
 
 CFG = {
     "DEBUG": dict(
