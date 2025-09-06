@@ -116,6 +116,8 @@ FETCH_ALIASES = {
 TEAM_RECORD_ADJUSTMENTS = {
      "Royals": (-1, 0),
      "Cubs": (0, -1),
+     "Astros": (1, -1),
+     "Tigers": (-1, 1),
 # agrega más si hace falta
 }
 
