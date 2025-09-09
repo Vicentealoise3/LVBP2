@@ -118,6 +118,7 @@ TEAM_RECORD_ADJUSTMENTS = {
      "Cubs": (0, -1),
      "Astros": (1, -1),
      "Tigers": (-1, 1),
+    "Dodgers": (3, 0),
 # agrega más si hace falta
 }
 
@@ -481,6 +482,7 @@ def games_played_today_scl():
 
 
 # ====== FIN DEL BLOQUE ======
+
 
 
 # ====== FIN DEL BLOQUE ======
