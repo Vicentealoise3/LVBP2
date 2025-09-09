@@ -114,11 +114,17 @@ FETCH_ALIASES = {
 
 # ===== Ajustes algebraicos por equipo (resets W/L) =====
 TEAM_RECORD_ADJUSTMENTS = {
-     "Royals": (-1, 0),
+     "Royals": (2, 0),
      "Cubs": (0, -1),
      "Astros": (1, -1),
      "Tigers": (-1, 1),
     "Dodgers": (3, 0),
+    "blue jays": (0, 1),
+     "giants": (2, -3),
+     "cardinals": (3, 1),
+    "padres": (0, 2),
+    "mets": (0, 3),
+    "diamonsbacks": (0, 5),
 # agrega más si hace falta
 }
 
@@ -486,3 +492,4 @@ def games_played_today_scl():
 
 
 # ====== FIN DEL BLOQUE ======
+
